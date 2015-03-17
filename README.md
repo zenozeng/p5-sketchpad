@@ -12,7 +12,11 @@ Easy to use for designers, teaching.
 
 - Offline 可用性
 
+    Using appcache, localStorage and indexeddb.
+
 - Auto completion for standard JavaScript and p5.js
+
+    And Icons for each shape.
 
 - JSHint / JSLint
 
@@ -27,10 +31,6 @@ Easy to use for designers, teaching.
 - IndexedDB / LocalStorage based session
 
 - Gif / PDF export
-
-- Share current project with a link
-
-    用于 demo，设计师会非常常用这个
 
 ### Live Preview
 
@@ -48,6 +48,12 @@ Easy to use for designers, teaching.
 - 色彩自动高亮 (like Emacs's rainbow mode)
 
     [此处应有 Emacs 截图]
+
+### Social
+
+- Share current project with a link
+
+    用于 demo，设计师会非常常用这个
 
 ## FAQ
 
