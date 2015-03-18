@@ -6,6 +6,10 @@ make coding accessible for artists, designers, educators, and beginner.
 Here is a sketch of the IDE for introducing some core concepts.
 Note that the UI will be redesigned when the project starts.
 
+## Overview
+
+[此处应有图]
+
 ## Features
 
 ### Basic
@@ -49,6 +53,8 @@ Note that the UI will be redesigned when the project starts.
 
     ![Interactive Documentation](interactive-documentation.png)
 
+    ![Interactive Documentation - Stroke Width](interactive-documentation-2.png)
+
 - Highlight colors (like Emacs's rainbow mode)
 
     ![Rainbow Mode](rainbow.png)
@@ -75,28 +81,16 @@ Note that the UI will be redesigned when the project starts.
 因为就我目前的观察，很多人会在下载 IDE 和安装使用他们的时候就感到挫败。
 而且在浏览器还有个好处就是甚至可以在 ipad 上来使用它，而且更加易于分享。
 
-### Will the project be public when using this IDE?
+### Why another browser based IDE?
 
-No. Actually, this IDE will not submit project to server.
+现在已经有很多 Web IDE 了。但是这个是为写 p5.js 做优化了的。
+
+### Will my project be public automatically when using this IDE?
+
+No. Actually, this IDE will not upload project to server.
 It's all client side code.
 
-But one exception, if you click the share button,
-a copy of your current project will be uploaded to server and will be accessible via the given link.
-
-### Will this IDE add support for Emacs/VIM keybinding?
-
-Maybe later.
-For now, the main target is to provide a easy to use environment for ordinary people.
-
-## About Me
-
-I am a junior student of Biosystems Engineering, Zhejiang University.
-And I have 3 years of web development experience.
-And I am a heavy Emacs user, I wrote some plugins for Emacs:
-- [yafolding.el](https://github.com/zenozeng/yafolding.el) (folding plugin)
-- [css-eldoc](https://github.com/zenozeng/css-eldoc) (CSS doc plugin)
-- [php-eldoc](https://github.com/zenozeng/php-eldoc) (PHP doc plugin)
-
+But one exception, if you click the share button,6
 I love coding very much and am very interested in developing an IDE.
 My girl friend is a designer and wants to learn some programming for Data Visualization.
 I want to teach her p5.js later this summer vacation and I want to build a easy-to-use IDE for her.
