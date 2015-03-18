@@ -3,23 +3,26 @@
 Browser based p5.js IDE designed to
 make coding accessible for artists, designers, educators, and beginner.
 
+Here is a sketch of the IDE for introducing some core concepts.
+Note that the UI will be redesigned when the project starts.
+
 ## Features
 
 ### Basic
 
-- Offline usability
+- Offline availability
 
-    Using appcache, localStorage and indexeddb.
-
-- Auto completion for standard JavaScript and p5.js.
-
-    And Icons for each shape. [此处应有草图]
-
-    ![Auto completion](auto-completion.png)
+    Using Appcache, Local Storage and IndexedDB.
 
 - JSHint / JSLint
 
 - Syntax Highlight
+
+- Auto completion for standard JavaScript and p5.js.
+
+    A completion menu with icon, syntax and category for each function.
+
+    ![Auto completion](auto-completion.png)
 
 ### Import and Export
 
@@ -42,9 +45,11 @@ make coding accessible for artists, designers, educators, and beginner.
 
     因为简单的 preview 是不够的，没有到那一帧就看不到，要等到。
 
+    Simple preview for whole project is not enough.
+
     ![Interactive Documentation](interactive-documentation.png)
 
-- 色彩自动高亮 (like Emacs's rainbow mode)
+- Highlight colors (like Emacs's rainbow mode)
 
     ![Rainbow Mode](rainbow.png)
 
@@ -88,11 +93,9 @@ For now, the main target is to provide a easy to use environment for ordinary pe
 I am a junior student of Biosystems Engineering, Zhejiang University.
 And I have 3 years of web development experience.
 And I am a heavy Emacs user, I wrote some plugins for Emacs:
-- yafolding.el (folding plugin)
-- css-eldoc (CSS doc plugin)
-- php-eldoc (PHP doc plugin)
-
-[TODO]: 这里补一下 link.
+- [yafolding.el](https://github.com/zenozeng/yafolding.el) (folding plugin)
+- [css-eldoc](https://github.com/zenozeng/css-eldoc) (CSS doc plugin)
+- [php-eldoc](https://github.com/zenozeng/php-eldoc) (PHP doc plugin)
 
 I love coding very much and am very interested in developing an IDE.
 My girl friend is a designer and wants to learn some programming for Data Visualization.
@@ -110,10 +113,12 @@ My GitHub: https://github.com/zenozeng
 
 - webkitGetAsEntry
 
-## Thanks
+## Special Thanks (alphabetical ordered)
 
-这个项目得到了这些人的帮助：
+Special thanks to the following people for give me suggestions to this project.
 
-- [Senorsen](https://github.com/Senorsen)
+- [Chiyo](http://chiyo.me) (Designer)
 
-- [DreaminginCodeZH](https://github.com/DreaminginCodeZH)
+- [DreaminginCodeZH](https://github.com/DreaminginCodeZH) (Android Developer)
+
+- [Senorsen](https://github.com/Senorsen) (devOps)
