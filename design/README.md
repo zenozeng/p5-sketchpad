@@ -8,7 +8,7 @@ Note that the UI will be redesigned when the project starts.
 
 ## Overview
 
-[此处应有图]
+![Overview](overview.png)
 
 ## Features
 
