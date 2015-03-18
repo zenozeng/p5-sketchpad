@@ -1,12 +1,12 @@
 # IDE Design
 
-Browser based p5.js IDE designed to
-make coding accessible for artists, designers, educators, and beginner.
-
-Here is a sketch of the IDE for introducing some core concepts.
-Note that the UI will be redesigned when the project starts.
+This is a browser based p5.js IDE designed to
+make coding accessible for artists, designers, educators, and beginners.
 
 ## Overview
+
+Here is an overview of the IDE for introducing some core concepts later.
+Note that the UI will be redesigned when the project starts.
 
 ![Overview](overview.png)
 
@@ -32,7 +32,7 @@ Note that the UI will be redesigned when the project starts.
 
 - Templates for new project
 
-- Drag files in
+- Drag files to current project
 
 - IndexedDB / LocalStorage based session
 
@@ -42,20 +42,27 @@ Note that the UI will be redesigned when the project starts.
 
 - Live preview for current project
 
-    很多人最初是有兴趣的，但是编程一开始的没有反馈会给他们带来挫败的感觉。
-    所以一个即时的反馈
+    Render result of current project using iframe for unblocking experience.
 
 - Interactive documentation for current function and current params
 
-    因为简单的 preview 是不够的，没有到那一帧就看不到，要等到。
-
     Simple preview for whole project is not enough.
+    When writing the params of a function,
+    it's better to show current result of current function.
+
+    Because the result of current function may not shown until some events happens (onclick for example)
+    or frameCount greater that certain value.
+
+    Our target users may not have direct feelings about numbers,
+    with an interactive documentation they can easily adjust params.
 
     ![Interactive Documentation](interactive-documentation.png)
 
     ![Interactive Documentation - Stroke Width](interactive-documentation-2.png)
 
 - Highlight colors (like Emacs's rainbow mode)
+
+    Expressions like `background(255, 255, 255)` will be highlighted based on its params.
 
     ![Rainbow Mode](rainbow.png)
 
@@ -65,34 +72,53 @@ Note that the UI will be redesigned when the project starts.
 
     Artists and designers may not have direct feeling for RGB.
     A color picker may be better for them.
-    When click on expression like `background(255, 255, 255)`,
+    When click on expressions like `background(255, 255, 255)`,
     a color picker will be displayed to help them choose the desired color.
 
 ### Social
 
 - Share current project with a link (Node.js)
 
-    用于 demo，设计师会非常常用这个
+    Upload current project to server and generate a link for easy distribute.
 
 ## FAQ
 
-### Why browser based?
+### Why browser based IDE?
 
-因为就我目前的观察，很多人会在下载 IDE 和安装使用他们的时候就感到挫败。
-而且在浏览器还有个好处就是甚至可以在 ipad 上来使用它，而且更加易于分享。
+Many people feel frustrated when downloading and installing IDE.
+A web browser based IDE is much easy to use, simply open tab.
 
-### Why another browser based IDE?
+And we can use browser based IDE in ipad or Android tablet.
 
-现在已经有很多 Web IDE 了。但是这个是为写 p5.js 做优化了的。
+And it's easy to share your project with your firends if it's in browser.
+
+### Why yet another browser based IDE?
+
+Though there is many browser based IDE,
+this one is designed for p5.js and want to make coding accessible for artists, designers, educators, and beginners.
 
 ### Will my project be public automatically when using this IDE?
 
 No. Actually, this IDE will not upload project to server.
 It's all client side code.
 
-But one exception, if you click the share button,6
+But one exception, if you click the share button, a copy of your current project will be uploaded to server and will be accessible via the given link.
+
+### Will this IDE add support for git, Emacs/VIM keybinding?
+
+Maybe later. For now, the main target is to provide a easy to use environment for ordinary people.
+
+### About Me
+
+I am a junior student of Biosystems Engineering, Zhejiang University. And I have 3 years of web development experience.
+By the way, I am a heavy Emacs user, I wrote some plugins for Emacs:
+
+- yafolding.el (folding plugin)
+- css-eldoc (CSS doc plugin)
+- php-eldoc (PHP doc plugin)
+
 I love coding very much and am very interested in developing an IDE.
-My girl friend is a designer and wants to learn some programming for Data Visualization.
+My girl friend is a designer and wants to learn some programming skills for Data Visualization.
 I want to teach her p5.js later this summer vacation and I want to build a easy-to-use IDE for her.
 
 My resume: http://resume.zenozeng.com/english/
