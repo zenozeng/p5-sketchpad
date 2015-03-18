@@ -1,3 +1,3 @@
 # p5-sketchpad
 
-[disign/README.md](disign/README.md)
+[disign/README.md](design/README.md)
