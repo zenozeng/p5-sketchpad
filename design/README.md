@@ -15,6 +15,8 @@ make coding accessible for artists, designers, educators, and beginner.
 
     And Icons for each shape. [此处应有草图]
 
+    ![Auto completion](auto-completion.png)
+
 - JSHint / JSLint
 
 - Syntax Highlight
@@ -38,9 +40,9 @@ make coding accessible for artists, designers, educators, and beginner.
 
 - Interactive documentation for current function and current params
 
-    [此处应有图解释]
-
     因为简单的 preview 是不够的，没有到那一帧就看不到，要等到。
+
+    ![Interactive Documentation](interactive-documentation.png)
 
 - 色彩自动高亮 (like Emacs's rainbow mode)
 
