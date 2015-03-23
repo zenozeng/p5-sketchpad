@@ -51,7 +51,7 @@ Note that the UI will be redesigned when the project starts.
     it's better to show current result of current function.
 
     Because the result of current function may not shown until some events happens (onclick for example)
-    or frameCount greater that certain value.
+    or frameCount greater than certain value.
 
     And our target users may not have direct feelings about numbers,
     but with an interactive documentation they can easily adjust parameters.
@@ -140,3 +140,5 @@ Special thanks to the following people for give me suggestions to this project.
 ## Reference
 
 - [The Processing Environment](https://processing.org/reference/environment/)
+
+- [Getting Started](https://processing.org/tutorials/gettingstarted/)
