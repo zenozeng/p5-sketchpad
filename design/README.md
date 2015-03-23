@@ -101,7 +101,8 @@ Maybe later. For now, the main target is to provide a easy to use environment fo
 
 ### About Me
 
-I am a junior student of Biosystems Engineering, Zhejiang University. And I have 3 years of web development experience.
+I am a junior student of Biosystems Engineering, Zhejiang University.
+And I have 3 years of web development experience (both frontend and backend).
 By the way, I am a heavy Emacs user, I wrote some plugins for Emacs:
 
 - yafolding.el (folding plugin)
@@ -112,17 +113,11 @@ I love coding very much and I am very interested in developing an IDE.
 My girl friend is a designer and wants to learn some programming skills for Data Visualization.
 I want to teach her p5.js later this summer vacation and I want to build a easy-to-use IDE for her.
 
-My resume: http://resume.zenozeng.com/english/
+My resume: https://zenozeng.github.io/resume/english/
 
 My GitHub: https://github.com/zenozeng
 
-## Related API and Libraries
-
-### Dragging folder
-
-- [mozGetDataAt](http://stackoverflow.com/questions/11620939/is-there-a-mozilla-equivalent-to-webkitgetasentry)
-
-- webkitGetAsEntry
+My Email: zenoofzeng@gmail.com
 
 ## Special Thanks (alphabetical ordered)
 
@@ -133,3 +128,15 @@ Special thanks to the following people for give me suggestions to this project.
 - [DreaminginCodeZH](https://github.com/DreaminginCodeZH) (Android Developer)
 
 - [Senorsen](https://github.com/Senorsen) (devOps)
+
+## Related API and Libraries
+
+### Dragging folder
+
+- [mozGetDataAt](http://stackoverflow.com/questions/11620939/is-there-a-mozilla-equivalent-to-webkitgetasentry)
+
+- webkitGetAsEntry
+
+## Reference
+
+- [The Processing Environment](https://processing.org/reference/environment/)
