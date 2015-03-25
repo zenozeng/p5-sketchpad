@@ -38,7 +38,7 @@ Note that the UI will be redesigned when the project starts.
 
 - Gif / PDF export
 
-### Live Preview
+### Live Preview and Documentation
 
 - Live preview for current project
 
@@ -75,6 +75,12 @@ Note that the UI will be redesigned when the project starts.
     When click on expressions like `background(255, 255, 255)`,
     a color picker will be displayed to help them choose the desired color.
 
+- Builtin Getting Started
+
+- Builtin Reference (with interactive search)
+
+- Builtin FAQ
+
 ### Presentation and Social
 
 - Presentation Mode
@@ -102,6 +108,18 @@ this one is designed for p5.js and want to make coding accessible for artists, d
 ### Will this IDE add support for git and Emacs/VIM keybinding?
 
 Maybe later. For now, the main target is to provide a easy to use environment for ordinary people.
+
+### Tech stacks?
+
+- React / Vue.js
+
+- Browserify and JavaScript (maybe some es6)
+
+- gulp
+
+- Node.js / io.js
+
+(Maybe change later)
 
 ### About Me
 
