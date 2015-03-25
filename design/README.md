@@ -75,7 +75,11 @@ Note that the UI will be redesigned when the project starts.
     When click on expressions like `background(255, 255, 255)`,
     a color picker will be displayed to help them choose the desired color.
 
-### Social
+### Presentation and Social
+
+- Presentation Mode
+
+    Use Full Screen API
 
 - Share current project with a link (Node.js)
 
