@@ -75,6 +75,11 @@ Note that the UI will be redesigned when the project starts.
     When click on expressions like `background(255, 255, 255)`,
     a color picker will be displayed to help them choose the desired color.
 
+- Sketch Area
+
+    A simple sketch area for writing a few lines of code and preview.
+    Like a REPL.
+
 - Builtin Getting Started
 
 - Builtin Reference (with interactive search)
